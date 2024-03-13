@@ -28,7 +28,7 @@ CTRL_CLICK_TO_EXIST_INTERACTIVE_MODE = false
 # 是否启用插件
 ENABLE = true
 # 在右键菜单中展示的名称
-NAME = "标签页管理"
+NAME = "标签页管理是否更改成功"
 # 是否在右键菜单中可点击
 CLICKABLE = true
 # 拖拽排序标签页的方式(1 or 2)

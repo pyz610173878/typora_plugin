@@ -1,3 +1,32 @@
-############### openInTotalCommander ###############
-[openInTotalCommander]
-enable = false
+# ./plugin/global/settings/custom_plugin.user.toml
+
+[myFullPathCopy]
+name = "我的复制标题路径插件"
+enable = true
+hide = false
+order = 1
+
+    # 插件配置
+    [myFullPathCopy.config]
+    # 快捷键
+    hotkey = "ctrl+shift+u"
+    # 如果在空白页调用此插件，使用的文件名（因为尚不存在该文件，需要用一个默认的文件名代替）
+    untitled_file_name = "untitled"
+    # 跳过空白的标题
+    ignore_empty_header = false
+    # 标题和提示之前添加空格
+    add_space = true
+    # 使用绝对路径
+    full_file_path = false
+
+
+[helloWorld]
+name = "你好世界"   # 右键菜单中展示的名称
+enable = true     # 是否启用此自定义插件
+hide = false      # 是否在右键菜单中隐藏
+order = 1         # 在右键菜单中的出现顺序（越大越排到后面，允许负数）
+
+	[helloWorld.config]
+	hotkey_string = "ctrl+alt+u"
+	console_message = "i am in process"
+	show_message = "this is hello world plugin"
